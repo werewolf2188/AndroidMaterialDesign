@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/menuSettings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu"
+        android:title="Search"
+        android:orderInCategory="90"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_search" />
+    <item
+        android:id="@+id/menu2"
+        android:title="Camera"
+        android:orderInCategory="80"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_camera" />
+    <item
+        android:id="@+id/menu3"
+        android:title="Camera"
+        android:orderInCategory="70"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_camera" />
+    <item
+        android:id="@+id/menu4"
+        android:title="Search"
+        android:orderInCategory="60"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_camera" />
+</menu>

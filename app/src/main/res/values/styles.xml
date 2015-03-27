@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorPrimaryDark">@color/PrimaryColorDark</item>
+        <item name="colorAccent">@color/AccentColor</item>
+
+    </style>
+
+    <style name="ThemeToolBar" parent="AppTheme.Base">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="ThemePopup" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/PrimaryColorDark</item>
+    </style>
+
+
+</resources>
